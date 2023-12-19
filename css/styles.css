@@ -1,8 +1,8 @@
 /* Fuentes */
 
 @font-face {
-    font-family: "Avenir";
-    src: url('../fonts/Avenir-Book.ttf');
+    font-family: 'Poppins', sans-serif;;
+    src: url('../fonts/Poppins-Medium.ttf');
 }
 
 /* Reseteo */
@@ -32,7 +32,7 @@ html {
 }
 
 body {
-    font-family: "Avenir", sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #67666e;
 }
 
@@ -90,16 +90,16 @@ p {
 }
 
 .hero div:nth-child(1) {
-    background-image: url('../img/front1.jpg');
+    background-image: url('../img/IMG-20231102-WA0036.jpg');
 }
 
 .hero div:nth-child(2) {
-    background-image: url('../img/front2.jpg');
+    background-image: url('../img/IMG-20231102-WA0035.jpg');
     animation-delay: 6s;
 }
 
 .hero div:nth-child(3) {
-    background-image: url('../img/front3.jpg');
+    background-image: url('../img/IMG-20231102-WA0031.jpg');
     animation-delay: 12s;
 }
 
@@ -275,6 +275,7 @@ header.transparente nav a:hover {
 
 .menu nav a:hover {
     color: white;
+    text-shadow: 1px 1px 1px  rgba(141, 24, 30, 0.5);
 }
 
 .menu .copyright {
@@ -428,7 +429,7 @@ header.transparente nav a:hover {
 /* Parallax */
 
 .fila.parallax {
-    background-image: url('../img/property5.jpg');
+    background-image: url('../img/IMG-20231102-WA0037.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -469,6 +470,7 @@ header.transparente nav a:hover {
 .caja-nav a:hover {
     background-color: #275954;
     color: white;
+    box-shadow: 5px 5px 10px rgba(rgb(255, 0, 195), rgb(128, 0, 107), rgb(251, 0, 255), alpha);
 }
 
 /* Formulario contacto */
